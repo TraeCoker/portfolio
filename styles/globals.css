@@ -4,6 +4,10 @@
 
 html, body {
   scroll-behavior: smooth;
+  background-color: #17171f;
+  color: white;
+  padding-bottom: 12;
+  font-family: 'Poppins', 'sans-serif';
 }
 
 .left-50 {
