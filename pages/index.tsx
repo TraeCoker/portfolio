@@ -66,7 +66,7 @@ export default function Home() {
       </div>
       
       <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-			  <section className="w-full">
+			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
 				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
           In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
