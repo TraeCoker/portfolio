@@ -65,7 +65,7 @@ export default function Home() {
           </div>
       </div>
       
-      <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+      <div className="container mt-60 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
 				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
@@ -77,7 +77,14 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+      <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			    <section className="w-full">
+				  <h2 id="about" className="secondary-title">My skills</h2>
+				  <p className="section-paragraph">React, Javscript, Rails</p>
+        </section>
+      </div>
+
+      <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
         <section className="w-full">
           <h2 id="work" className="secondary-title">What I've been working on</h2>
           <p className="section-paragraph">I keep busy and am always working up some sort of project. Have a look at some of the applications, technical writing, and organizations I have been a part of. </p>
