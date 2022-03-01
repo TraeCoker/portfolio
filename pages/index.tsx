@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-body text-white font-poppins pb-12">
       <Head>
-        <title>Trae Coker Portfolio</title>
+        <title>Trae Coker - Full Stack Developer</title>
         <meta name="description" content="Software engineer portfolio trae coker react node javascript react python next hiring" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -81,6 +81,16 @@ export default function Home() {
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">My skills</h2>
 				  <p className="section-paragraph">React, Javscript, Rails</p>
+          <div className="grid grid-rows-2 grid-flow-col gap-4">
+            <p><span>○</span> JavaScript ES6</p>
+            <p><span>○</span> Ruby on Rails</p>
+            <p><span>○</span> React</p>
+            <p><span>○</span> Python</p>
+            <p><span>○</span> Node.js</p>
+            <p><span>○</span> HTML, CSS, SASS</p>
+            <p><span>○</span> SQL/NOSQL/GraphQL</p>
+            <p><span>○</span> Flutter</p>
+          </div>
         </section>
       </div>
 
