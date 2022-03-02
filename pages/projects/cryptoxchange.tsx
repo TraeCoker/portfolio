@@ -7,7 +7,7 @@ import screenShotThree from '../../public/crypto-buy.png'
 import screenShotTwo from '../../public/crypto-wallet-top.png'
 import screenShotOne from '../../public/crypto-sign.png'
 import bottmPic from '../../public/crypto-wallet-top.png'
-import stackPic from '../../public/crypto-stack.png'
+import stackPic from '../../public/crypto-stack-2.png'
 
 
 export default function Project({ project }) {
