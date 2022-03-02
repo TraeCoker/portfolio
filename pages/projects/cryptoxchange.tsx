@@ -1,13 +1,12 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Image from 'next/image'
-import bannerPic from '../../public/source-laptop-3.png'
-import fullPic from '../../public/source-full.png'
-import screenShotOne from '../../public/source-stripe-2.png'
-import screenShotTwo from '../../public/source-2-full.png'
-import screenShotThree from '../../public/source-nav.png'
-import screenShotFour from '../../public/source-3-full.png'
-import bottmPic from '../../public/source-laptop-4.png'
+import bannerPic from '../../public/crypto-top.png'
+import fullPic from '../../public/crypto-market-full.png'
+import screenShotThree from '../../public/crypto-buy.png'
+import screenShotTwo from '../../public/crypto-wallet-top.png'
+import screenShotOne from '../../public/crypto-sign.png'
+import bottmPic from '../../public/crypto-wallet-top.png'
 import stackPic from '../../public/source-stack.png'
 
 
@@ -115,9 +114,6 @@ export default function Project({ project }) {
            <div className="px-8 py-8">
            <Image src={screenShotThree} priority/>
            </div>
-            <div className="px-8 py-8">
-            <Image src={screenShotFour} priority />
-            </div>
             </div>
                 
             </div>
