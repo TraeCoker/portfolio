@@ -29,7 +29,7 @@ export default function Project({ project }) {
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			    <section className="w-full">
-				  <h2 id="project-about" className="secondary-title">THE SOURCE</h2>
+				  <h2 id="project-about" className="secondary-title">cryptoXchange</h2>
 				  <p className="section-paragraph">The Source is an e-commerce storefront I built for a company selling digital products and subscription services.
                   The application is integrated with the Stripe SDK to manage one-time and recurring payments seamlessly.</p>
                 </section>
