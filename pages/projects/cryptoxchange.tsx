@@ -30,8 +30,9 @@ export default function Project({ project }) {
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">cryptoXchange</h2>
-				  <p className="section-paragraph">The Source is an e-commerce storefront I built for a company selling digital products and subscription services.
-                  The application is integrated with the Stripe SDK to manage one-time and recurring payments seamlessly.</p>
+				  <p className="section-paragraph">My capstone project for the Flatiron School, cryptoXchange is a mock cryptocurrency exchange featuring a wallet for users, 
+                  historical charts showing gains and losses of wallet over time, 
+                  and real-time market data display of the top 100 crypto currencies on the market. </p>
                 </section>
             </div>
 
@@ -44,32 +45,28 @@ export default function Project({ project }) {
                     <th className="bg-theme border border-body text-left px-8 py-4">Demo</th>
                 </tr>
                 <tr>
-                    <td className=" px-8 py-4">E-Commerce</td>
-                    <td className=" px-8 py-4">React (Typescript)</td>
-                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/react-stripe-storefront" className="text-selected-text hover:text-white">Front-End Repo</a></td>
-                    <td className=" px-8 py-4"><a href="https://the-source.netlify.app/" className="text-selected-text hover:text-white">Visit Site</a></td>
+                    <td className=" px-8 py-4">Cryptocurrency</td>
+                    <td className=" px-8 py-4">React</td>
+                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/crypto-wallet-frontend" className="text-selected-text hover:text-white">Front-End Repo</a></td>
+                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=PcPqTjJIAXU" className="text-selected-text hover:text-white">Video Demo</a></td>
+                </tr>
+                <tr>
+                    <td className=" px-8 py-4">Full-Stack</td>
+                    <td className=" px-8 py-4">Ruby on Rails</td>
+                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/crypto-wallet-backend" className="text-selected-text hover:text-white">Back-End Repo</a></td>
+                    <td className=" px-8 py-4"></td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Node.js (Typescript)</td>
-                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/node-stripe-server-demo" className="text-selected-text hover:text-white">Back-End Repo</a></td>
-                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=0sx1P5QMoBY&t=2s" className="text-selected-text hover:text-white">Video Demo</a></td>
+                    <td className=" px-8 py-4">Redux</td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Firebase</td>
+                    <td className=" px-8 py-4">PostgreSQL</td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Stripe</td>
-                </tr>
-                <tr>
-                    <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Sass</td>
-                </tr>
-                <tr>
-                    <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Docker</td>
+                    <td className=" px-8 py-4">Chart.js</td>
                 </tr>
                 </table>
             </div>
