@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             <div className="mt-6 ">
               <Link href="/projects/the-source">
-                <img src="/mock-crypto-new-2.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
+                <img src="/new-mock-crypto.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
               </Link>
             <h2 className="tertiary-title  mt-6">CryptoXChange</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
