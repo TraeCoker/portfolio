@@ -8,6 +8,7 @@ import screenShotTwo from '../../public/source-2-full.png'
 import screenShotThree from '../../public/source-nav.png'
 import screenShotFour from '../../public/source-3-full.png'
 import bottmPic from '../../public/source-laptop-1.png'
+import stackPic from '../../public/source-stack.png'
 
 
 export default function Project({ project }) {
@@ -29,9 +30,8 @@ export default function Project({ project }) {
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">THE SOURCE</h2>
-				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
-                    In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
-                    developing code and applications that are effective and beautiful inside and out.</p>
+				  <p className="section-paragraph">The Source is an e-commerce storefront I built for a company selling digital products and subscription services.
+                  The application is integrated with the Stripe SDK to manage one-time and recurring payments seamlessly.</p>
                 </section>
             </div>
 
@@ -65,6 +65,10 @@ export default function Project({ project }) {
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
+                    <td className=" px-8 py-4">Sass</td>
+                </tr>
+                <tr>
+                    <td className=" px-8 py-4"></td>
                     <td className=" px-8 py-4">Docker</td>
                 </tr>
                 </table>
@@ -74,26 +78,34 @@ export default function Project({ project }) {
                 <Image src={bannerPic} priority />
             </div>
 
-            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-16 w-full">
 			    <section className="w-full">
-				  <h2 id="project-about" className="secondary-title">Project Purpose and Goal</h2>
-				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
-                    In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
-                    developing code and applications that are effective and beautiful inside and out.</p>
+				  <h2 id="project-goal" className="secondary-title">Project Purpose and Goal</h2>
+				  <p className="section-paragraph">This project was inspired by my partner who is training to become a proffesional health coach.
+                  This was a mockup I worked up based on her and her colleagues ideas of what they would want in a health oriented learning platform.</p>
+                  <p></p>
+                  <p className="section-paragraph">My goal was to develop a site that was both visually captivating and easy to manage from an adminstrative perspective.
+                  </p>
                 </section>
             </div>
 
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-12">
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+                <Image src={stackPic} priority />
+            </div>
+            <div className="container mt-6 flex justify-between items-center mx-auto px-4 md:px-8 lg:px-12 w-full">
 			    <section className="w-full">
-				  <h2 id="project-about" className="secondary-title">Stack and Explanation</h2>
+				  <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
 				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
                     In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
                     developing code and applications that are effective and beautiful inside and out.</p>
                 </section>
             </div>
+            </div>
+            
 
             <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-12">
             <div className="px-8 py-8 row-span-4">
             <Image src={fullPic} priority />
             </div>
