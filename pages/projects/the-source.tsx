@@ -146,9 +146,8 @@ export default function Project({ project }) {
             <div className="container mt-18 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Lessons Learned</h2>
-				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
-                    In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
-                    developing code and applications that are effective and beautiful inside and out.</p>
+				  <p className="section-paragraph">This project taught me a lot about micro-services and the importance of designing your projects well so that all the moving parts can make harmonious music together.</p>
+          <p className="section-paragraph">If I were to build this again I would choose a more modern CSS framework so that I could achieve the same results with less bulk. This project was very image heavy and I would want to implement more responsive image processing to assure the best UX is being delivered to all users at all times. </p>
                 </section>
             </div>
 
