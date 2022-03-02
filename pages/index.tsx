@@ -51,7 +51,7 @@ export default function Home() {
               <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36 -z-1">
                   <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br/> the web of tomorrow.</h1>
                   <div className="w-full flex justify-center md:justify-start">
-                      <button className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                      <a href="#work" className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
                           <div>
                               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
@@ -59,7 +59,7 @@ export default function Home() {
                               </svg>								
                           </div>
                           <span>View my work.</span>
-                      </button>
+                      </a>
                   </div>
               </div>
               <img src="/me4.png" alt="Picture of Trae Coker" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 " />
@@ -102,7 +102,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 mt-6">
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover"/>
+            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
             <a href="/projects/the-source" >
@@ -110,7 +110,7 @@ export default function Home() {
             </a>
             </div>
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover"/>
+            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
             <a href="/projects/the-source" >
@@ -118,7 +118,7 @@ export default function Home() {
             </a>
             </div>
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover"/>
+            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
             <a href="/projects/the-source" >
@@ -126,7 +126,7 @@ export default function Home() {
             </a>
             </div>
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover"/>
+            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
             <a href="/projects/the-source" >
