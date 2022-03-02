@@ -112,12 +112,12 @@ export default function Home() {
             </Link>
             </div>
             <div className="mt-6 ">
-              <Link href="/projects/the-source">
+              <Link href="/projects/cryptoxchange">
                 <img src="/new-mock-crypto.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
               </Link>
             <h2 className="tertiary-title  mt-6">CryptoXChange</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
-            <Link href="/projects/the-source" >
+            <Link href="/projects/cryptoxchange" >
               <a className="peer mt-6 cursor-pointer peer-hover:text-selected-text hover:text-selected-text font-bold">VIEW PROJECT <span>›</span></a>
             </Link>
             </div>
