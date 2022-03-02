@@ -1,6 +1,14 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
+import bannerPic from '../../public/source-laptop-3.png'
+import fullPic from '../../public/source-full.png'
+import screenShotOne from '../../public/source-stripe-2.png'
+import screenShotTwo from '../../public/source-2-full.png'
+import screenShotThree from '../../public/source-nav.png'
+import screenShotFour from '../../public/source-3-full.png'
+import bottmPic from '../../public/source-laptop-1.png'
 import styles from '../../styles/Home.module.css'
 
 export default function Project({ project }) {
@@ -63,8 +71,8 @@ export default function Project({ project }) {
                 </table>
             </div>
 
-            <div>
-                <img src="../source-laptop-3.PNG" className="px-8 py-8 "></img>
+            <div className="px-20 py-20 ">
+                <Image src={bannerPic} priority />
             </div>
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
@@ -87,12 +95,21 @@ export default function Project({ project }) {
 
             <div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-6">
-
-            <img src="../source-full.png" className="px-8 py-8 row-span-4"></img>
-            <img src="../source-stripe-2.PNG" className="px-8 py-8"></img>
-            <img src="../source-2-full.png" className="px-8 py-8"></img>
-            <img src="../source-nav.PNG" className="px-8 py-8"></img>
-            <img src="../source-3-full.png" className="px-8 py-8"></img>
+            <div className="px-8 py-8 row-span-4">
+            <Image src={fullPic} priority />
+            </div>
+            <div className="px-8 py-8">
+            <Image src={screenShotOne}  priority/>
+            </div>
+            <div className="px-8 py-8">
+            <Image src={screenShotTwo} priority/>
+            </div>
+           <div className="px-8 py-8">
+           <Image src={screenShotThree} priority/>
+           </div>
+            <div className="px-8 py-8">
+            <Image src={screenShotFour} priority />
+            </div>
             </div>
                 
             </div>
@@ -106,8 +123,8 @@ export default function Project({ project }) {
                 </section>
             </div>
 
-            <div>
-                <img src="../source-laptop-1.PNG" className="px-8 py-8"></img>
+            <div className="px-20 py-20">
+                <Image src={bottmPic} priority />
             </div>
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
