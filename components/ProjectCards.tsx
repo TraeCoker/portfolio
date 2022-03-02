@@ -27,18 +27,18 @@ const ProjectCards = () => {
           <a href="/projects/the-source">
             <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
           </a>
-        <h2 className="tertiary-title  mt-6">Medium Blog</h2>
-        <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
+        <h2 className="tertiary-title  mt-6">Technical Writing Blog</h2>
+        <p className="mt-6 section-paragraph">I like to write tutorials and technical blogs on Medium to help other aspiring developers</p>
         <a href="/projects/the-source" >
-          <a className="peer mt-6 cursor-pointer peer-hover:text-selected-text hover:text-selected-text font-bold">VIEW PROJECT <span>›</span></a>
+          <a className="peer mt-6 cursor-pointer peer-hover:text-selected-text hover:text-selected-text font-bold">VIEW BLOG <span>›</span></a>
         </a>
         </div>
         <div className="mt-6 ">
           <a href="/projects/the-source">
             <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
           </a>
-        <h2 className="tertiary-title  mt-6">The Source</h2>
-        <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
+        <h2 className="tertiary-title  mt-6">Sophia</h2>
+        <p className="mt-6 section-paragraph">An educational hub for western philosophy built with Object Oriented vanilla Javascript and Ruby on Rails</p>
         <a href="/projects/the-source" >
           <a className="peer mt-6 cursor-pointer peer-hover:text-selected-text hover:text-selected-text font-bold">VIEW PROJECT <span>›</span></a>
         </a>
