@@ -77,10 +77,10 @@ export default function Project({ project }) {
             <div className="container mt-20 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-16 w-full">
 			    <section className="w-full">
 				  <h2 id="project-goal" className="secondary-title">Project Purpose and Goal</h2>
-				  <p className="section-paragraph">This project was inspired by my partner who is training to become a proffesional health coach.
-                  This was a mockup I worked up based on her and her colleagues ideas of what they would want in a health oriented learning platform.</p>
+				  <p className="section-paragraph">The inspiration for this project came from a challenge I made to myself to build an app that could fetch, parse, calculate, and display large amounts of data that was subject to real-time change.
+                  My goal was then to create a simple UI that could allow users to make decisions based on the changes in that data and track their own relationship to said data over time.</p>
                   <p></p>
-                  <p className="section-paragraph">My goal was to develop a site that was both visually captivating and easy to manage from an adminstrative perspective.
+                  <p className="section-paragraph">Being a student of Web3 technologies, I found the often volatile cryptocurrency market to be the perfect fit.
                   </p>
                 </section>
             </div>
