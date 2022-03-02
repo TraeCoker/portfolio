@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -102,36 +102,44 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 mt-6">
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              <Link href="/projects/the-source">
+                <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              </Link>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
-            <a href="/projects/the-source" >
-              <p className="mt-6">VIEW PROJECT <span>›</span></p>
-            </a>
+            <Link href="/projects/the-source" >
+              <p className="mt-6 cursor-pointer">VIEW PROJECT <span>›</span></p>
+            </Link>
             </div>
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              <Link href="/projects/the-source">
+                <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              </Link>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
-            <a href="/projects/the-source" >
-              <p className="mt-6">VIEW PROJECT <span>›</span></p>
-            </a>
+            <Link href="/projects/the-source" >
+              <p className="mt-6 cursor-pointer">VIEW PROJECT <span>›</span></p>
+            </Link>
             </div>
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              <Link href="/projects/the-source">
+                <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              </Link>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
-            <a href="/projects/the-source" >
-              <p className="mt-6">VIEW PROJECT <span>›</span></p>
-            </a>
+            <Link href="/projects/the-source" >
+              <p className="mt-6 cursor-pointer">VIEW PROJECT <span>›</span></p>
+            </Link>
             </div>
             <div className="mt-6 ">
-            <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              <Link href="/projects/the-source">
+                <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer"/>
+              </Link>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
-            <a href="/projects/the-source" >
-              <p className="mt-6">VIEW PROJECT <span>›</span></p>
-            </a>
+            <Link href="/projects/the-source" >
+              <p className="mt-6 cursor-pointer">VIEW PROJECT <span>›</span></p>
+            </Link>
             </div>
           </div>
         </section>
