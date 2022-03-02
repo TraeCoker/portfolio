@@ -134,9 +134,8 @@ export default function Project({ project }) {
             <div className="container mt-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Problems and Thought Process</h2>
-				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
-                    In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
-                    developing code and applications that are effective and beautiful inside and out.</p>
+				  <p className="section-paragraph">This was my first big project using TypeScript. Starting out I ran into some challenges getting the types for my Stripe Elements to match from the front-end to the back-end.</p>
+          <p className="section-paragraph">After I built all the functionality of my Express API,  I discovered a Stripe extension built into the Firebase dashboard that I ended up using to handle the webhooks needed for recurring subscription payments. Getting to automate my subscription database updates without needing to route them through my server helped me achieve the same goal with less code.</p>
                 </section>
             </div>
 
