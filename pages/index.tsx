@@ -103,7 +103,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 mt-6">
             <div className="mt-6 ">
               <Link href="/projects/the-source">
-                <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer transition duration-500 hover:scale-105"/>
+                <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
               </Link>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
@@ -113,9 +113,9 @@ export default function Home() {
             </div>
             <div className="mt-6 ">
               <Link href="/projects/the-source">
-                <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer transition duration-500 hover:scale-105"/>
+                <img src="/mock-crypto-new-2.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
               </Link>
-            <h2 className="tertiary-title  mt-6">The Source</h2>
+            <h2 className="tertiary-title  mt-6">CryptoXChange</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
             <Link href="/projects/the-source" >
               <a className="peer mt-6 cursor-pointer peer-hover:text-selected-text hover:text-selected-text font-bold">VIEW PROJECT <span>›</span></a>
@@ -123,9 +123,9 @@ export default function Home() {
             </div>
             <div className="mt-6 ">
               <Link href="/projects/the-source">
-                <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer transition duration-500 hover:scale-105"/>
+                <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
               </Link>
-            <h2 className="tertiary-title  mt-6">The Source</h2>
+            <h2 className="tertiary-title  mt-6">Medium Blog</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
             <Link href="/projects/the-source" >
               <a className="peer mt-6 cursor-pointer peer-hover:text-selected-text hover:text-selected-text font-bold">VIEW PROJECT <span>›</span></a>
@@ -133,7 +133,7 @@ export default function Home() {
             </div>
             <div className="mt-6 ">
               <Link href="/projects/the-source">
-                <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-72 object-cover cursor-pointer transition duration-500 hover:scale-105"/>
+                <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
               </Link>
             <h2 className="tertiary-title  mt-6">The Source</h2>
             <p className="mt-6 section-paragraph">If I built it, they will come and they did and it was tight</p>
