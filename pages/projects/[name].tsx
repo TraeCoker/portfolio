@@ -46,14 +46,14 @@ export default function Project({ project }) {
                 <tr>
                     <td className=" px-8 py-4">E-Commerce</td>
                     <td className=" px-8 py-4">React (Typescript)</td>
-                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/react-stripe-storefront" className="text-selected-text">Front-End Repo</a></td>
-                    <td className=" px-8 py-4"><a href="https://the-source.netlify.app/" className="text-selected-text">Visit Site</a></td>
+                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/react-stripe-storefront" className="text-selected-text hover:text-white">Front-End Repo</a></td>
+                    <td className=" px-8 py-4"><a href="https://the-source.netlify.app/" className="text-selected-text hover:text-white">Visit Site</a></td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
                     <td className=" px-8 py-4">Node.js (Typescript)</td>
-                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/node-stripe-server-demo" className="text-selected-text">Back-End Repo</a></td>
-                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=0sx1P5QMoBY&t=2s" className="text-selected-text">Video Demo</a></td>
+                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/node-stripe-server-demo" className="text-selected-text hover:text-white">Back-End Repo</a></td>
+                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=0sx1P5QMoBY&t=2s" className="text-selected-text hover:text-white">Video Demo</a></td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
