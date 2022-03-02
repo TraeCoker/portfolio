@@ -7,16 +7,61 @@ export default function Project({ project }) {
     const router = useRouter()
     const { name } = router.query
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
-                <title>Project</title>
+                <title>The Source E-Commerce Application</title>
             </Head>
 
-            <main className={styles.main}>
-                <h1 className={styles.title}>
-                    {name}
-                </h1>
-            </main>
+            <header className="py-6">
+          <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+              <div className="text-lg font-bold">Trae Coker</div>
+          </div>
+          </header>
+
+            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			    <section className="w-full">
+				  <h2 id="project-about" className="secondary-title">The Source</h2>
+				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
+                    In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
+                    developing code and applications that are effective and beautiful inside and out.</p>
+                </section>
+            </div>
+
+            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <table className="shadow-lg bg-grey">
+  <tr>
+    <th className="bg-theme border border-body text-left px-8 py-4">Type</th>
+    <th className="bg-theme border border-body text-left px-8 py-4">Stack</th>
+    <th className="bg-theme border border-body text-left px-8 py-4">Code</th>
+    <th className="bg-theme border border-body text-left px-8 py-4">Demo</th>
+  </tr>
+  <tr>
+    <td className=" px-8 py-4">E-Commerce</td>
+    <td className=" px-8 py-4">React (Typescript)</td>
+    <td className=" px-8 py-4">Repository</td>
+    <td className=" px-8 py-4">Visit Site</td>
+  </tr>
+  <tr>
+    <td className=" px-8 py-4"></td>
+    <td className=" px-8 py-4">Node.js (Typescript)</td>
+    <td className=" px-8 py-4"></td>
+    <td className=" px-8 py-4">Video Demo</td>
+  </tr>
+  <tr>
+    <td className=" px-8 py-4"></td>
+    <td className=" px-8 py-4">Firebase</td>
+  </tr>
+  <tr>
+    <td className=" px-8 py-4"></td>
+    <td className=" px-8 py-4">Stripe</td>
+  </tr>
+  <tr>
+    <td className=" px-8 py-4"></td>
+    <td className=" px-8 py-4">Docker</td>
+  </tr>
+</table>
+            </div>
+
         </div>
     )
 }
