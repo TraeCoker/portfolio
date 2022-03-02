@@ -92,9 +92,11 @@ export default function Project({ project }) {
             <div className="container mt-24 flex justify-between items-center mx-auto px-4 md:px-8 lg:px-12 w-full">
 			    <section className="w-full">
 				  <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
-				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
-                    In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
-                    developing code and applications that are effective and beautiful inside and out.</p>
+				  <p className="section-paragraph">React was my go-to JavaScript framework for the front-end. The component structure helped easily organize the app logic by seperation of concerns.</p>
+                  <p className="section-paragraph">For handling the global app state I chose to implement Redux. Setting it up with Thunk middleware allowed me to fetch data and update my state asynchronously which was a boon for frequently updating data without disrupting the UX.</p>
+                  <p className="section-paragraph">Ruby on Rails provided the MVC architecture for my back-end and gave me a foundation for building a RESTful API.</p>
+                  <p className="section-paragraph">PostgreSQL supplied me with all the joins capabilities that my database schema required to create has-many relationships between my tables.</p>
+                  <p className="section-paragraph">I went with Chart.js for my data display because it provided much of what I needed feature wise out of the box with easy to implement modifications.</p>
                 </section>
             </div>
             </div>
