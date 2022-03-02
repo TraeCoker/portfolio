@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
 import bannerPic from '../../public/source-laptop-3.png'
 import fullPic from '../../public/source-full.png'
@@ -9,7 +8,7 @@ import screenShotTwo from '../../public/source-2-full.png'
 import screenShotThree from '../../public/source-nav.png'
 import screenShotFour from '../../public/source-3-full.png'
 import bottmPic from '../../public/source-laptop-1.png'
-import styles from '../../styles/Home.module.css'
+
 
 export default function Project({ project }) {
 
