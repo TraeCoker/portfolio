@@ -29,37 +29,41 @@ export default function Project({ project }) {
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <table className="shadow-lg bg-grey">
-  <tr>
-    <th className="bg-theme border border-body text-left px-8 py-4">Type</th>
-    <th className="bg-theme border border-body text-left px-8 py-4">Stack</th>
-    <th className="bg-theme border border-body text-left px-8 py-4">Code</th>
-    <th className="bg-theme border border-body text-left px-8 py-4">Demo</th>
-  </tr>
-  <tr>
-    <td className=" px-8 py-4">E-Commerce</td>
-    <td className=" px-8 py-4">React (Typescript)</td>
-    <td className=" px-8 py-4">Repository</td>
-    <td className=" px-8 py-4">Visit Site</td>
-  </tr>
-  <tr>
-    <td className=" px-8 py-4"></td>
-    <td className=" px-8 py-4">Node.js (Typescript)</td>
-    <td className=" px-8 py-4"></td>
-    <td className=" px-8 py-4">Video Demo</td>
-  </tr>
-  <tr>
-    <td className=" px-8 py-4"></td>
-    <td className=" px-8 py-4">Firebase</td>
-  </tr>
-  <tr>
-    <td className=" px-8 py-4"></td>
-    <td className=" px-8 py-4">Stripe</td>
-  </tr>
-  <tr>
-    <td className=" px-8 py-4"></td>
-    <td className=" px-8 py-4">Docker</td>
-  </tr>
-</table>
+                <tr>
+                    <th className="bg-theme border border-body text-left px-8 py-4">Type</th>
+                    <th className="bg-theme border border-body text-left px-8 py-4">Stack</th>
+                    <th className="bg-theme border border-body text-left px-8 py-4">Code</th>
+                    <th className="bg-theme border border-body text-left px-8 py-4">Demo</th>
+                </tr>
+                <tr>
+                    <td className=" px-8 py-4">E-Commerce</td>
+                    <td className=" px-8 py-4">React (Typescript)</td>
+                    <td className=" px-8 py-4">Repository</td>
+                    <td className=" px-8 py-4">Visit Site</td>
+                </tr>
+                <tr>
+                    <td className=" px-8 py-4"></td>
+                    <td className=" px-8 py-4">Node.js (Typescript)</td>
+                    <td className=" px-8 py-4"></td>
+                    <td className=" px-8 py-4">Video Demo</td>
+                </tr>
+                <tr>
+                    <td className=" px-8 py-4"></td>
+                    <td className=" px-8 py-4">Firebase</td>
+                </tr>
+                <tr>
+                    <td className=" px-8 py-4"></td>
+                    <td className=" px-8 py-4">Stripe</td>
+                </tr>
+                <tr>
+                    <td className=" px-8 py-4"></td>
+                    <td className=" px-8 py-4">Docker</td>
+                </tr>
+                </table>
+            </div>
+
+            <div>
+                <img src="../source-laptop-2.PNG" className="px-8 py-8"></img>
             </div>
 
         </div>
