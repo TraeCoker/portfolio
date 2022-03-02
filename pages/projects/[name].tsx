@@ -7,7 +7,7 @@ import screenShotOne from '../../public/source-stripe-2.png'
 import screenShotTwo from '../../public/source-2-full.png'
 import screenShotThree from '../../public/source-nav.png'
 import screenShotFour from '../../public/source-3-full.png'
-import bottmPic from '../../public/source-laptop-1.png'
+import bottmPic from '../../public/source-laptop-4.png'
 import stackPic from '../../public/source-stack.png'
 
 
@@ -46,14 +46,14 @@ export default function Project({ project }) {
                 <tr>
                     <td className=" px-8 py-4">E-Commerce</td>
                     <td className=" px-8 py-4">React (Typescript)</td>
-                    <td className=" px-8 py-4">Repository</td>
-                    <td className=" px-8 py-4">Visit Site</td>
+                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/react-stripe-storefront" className="text-selected-text">Front-End Repo</a></td>
+                    <td className=" px-8 py-4"><a href="https://the-source.netlify.app/" className="text-selected-text">Visit Site</a></td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
                     <td className=" px-8 py-4">Node.js (Typescript)</td>
-                    <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Video Demo</td>
+                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/node-stripe-server-demo" className="text-selected-text">Back-End Repo</a></td>
+                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=0sx1P5QMoBY&t=2s" className="text-selected-text">Video Demo</a></td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>
