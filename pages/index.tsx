@@ -1,8 +1,10 @@
 import { Contact } from '../components/Contact'
+import Image from 'next/image';
 import ProjectCards from '../components/ProjectCards'
 import { useScrollHandler } from '../utilities/useScrollHandler'
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
+import headerPic from  '../public/me4.png'
 
 
 
@@ -104,7 +106,9 @@ export default function Home() {
                     </Link>
                   </div>
               </div>
-              <img src="/me4.png" alt="Picture of Trae Coker" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 animate-fade-in-up-s" />
+              <div  className="w-3/4 mt-12 md:absolute sm:mt-6 md:mt-0 right-0 animate-fade-in-up-s" >
+                <Image src={headerPic} alt="Picture of Trae Coker" priority />
+              </div>
           </div>
       </div>
       
