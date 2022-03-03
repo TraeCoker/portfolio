@@ -9,6 +9,11 @@ import Link from 'next/link';
 export default function Home() {
   const scrollPosition = useScrollHandler();
 
+  const selectedStyle = {
+          background: '#3F3FFF',
+          border: '#3F3FFF',
+  }
+
   return (
     <div className="bg-body text-white font-poppins pb-12">
 
@@ -56,27 +61,27 @@ export default function Home() {
               <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
                   <div className="absolute left-25 transform -translate-x-1/2 space-y-6 mt-36">
                     <Link href="#">
-                        <a  className={(scrollPosition < 600 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        <a  style={(scrollPosition < 600 ? selectedStyle : null )} className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
                         </a>
                     </Link>
                     <Link href="#about">
-                        <a  className={(scrollPosition > 600 && scrollPosition < 1000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        <a  style={(scrollPosition >= 600 && scrollPosition < 1000 ? selectedStyle : null)} className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
                         </a>
                     </Link>  
                     <Link href="#skills">
-                        <a  className={(scrollPosition > 1000 && scrollPosition < 1500 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        <a  style={(scrollPosition >= 1000 && scrollPosition < 1500 ? selectedStyle : null )} className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
                         </a>
                     </Link> 
                     <Link href="#work">
-                        <a  className={(scrollPosition > 1500 && scrollPosition < 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        <a style={(scrollPosition >= 1500 && scrollPosition < 3000 ? selectedStyle : null )} className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
                         </a>
                     </Link>
                     <Link href="#hire">
-                        <a  className={(scrollPosition > 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        <a  style={(scrollPosition >= 3000 ? selectedStyle : null)} className="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
                         </a>
                     </Link>
