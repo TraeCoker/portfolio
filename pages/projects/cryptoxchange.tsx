@@ -80,7 +80,7 @@ export default function Project({ project }) {
                 </table>
             </div>
 
-            <div className="px-20 py-20 animate-fade-in-up-s ">
+            <div className="px-4 mt-10 sm:mt-0 sm:px-20 sm:py-20 animate-fade-in-up-s ">
                 <Image src={bannerPic} priority />
             </div>
 
@@ -137,7 +137,7 @@ export default function Project({ project }) {
                 </section>
             </div>
 
-            <div className="mt-24 px-20 py-20 animate-fade-in-up-s">
+            <div className="mt-24 mb-24 sm:mb-0 px-4 sm:px-20 sm:py-20 animate-fade-in-up-s">
                 <Image src={bottmPic} priority />
             </div>
 

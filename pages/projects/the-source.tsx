@@ -87,8 +87,8 @@ export default function Project({ project }) {
                 </table>
             </div>
 
-            <div className="px-20 py-20 animate-fade-in-up-s">
-                <Image src={bannerPic} priority />
+            <div className="px-4 mt-10 sm:mt-0 sm:px-20 sm:py-20 animate-fade-in-up-s">
+                <Image src={bannerPic}  priority />
             </div>
 
             <div className="container mt-20 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-16 w-full animate-fade-in-up-s">
@@ -149,7 +149,7 @@ export default function Project({ project }) {
                 </section>
             </div>
 
-            <div className="mt-24 px-20 py-20 animate-fade-in-up-s">
+            <div className="mt-24 mb-24 sm:mb-0 px-4 sm:px-20 sm:py-20 animate-fade-in-up-s">
                 <Image src={bottmPic} priority />
             </div>
 
