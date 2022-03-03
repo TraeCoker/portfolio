@@ -55,7 +55,7 @@ export default function Project({ project }) {
                     <td className=" px-8 py-4">Full-Stack</td>
                     <td className=" px-8 py-4">Node.js (Typescript)</td>
                     <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/node-stripe-server-demo" className="text-selected-text hover:text-white">Back-End Repo</a></td>
-                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=0sx1P5QMoBY&t=2s" className="text-selected-text hover:text-white">Video Demo</a></td>
+                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=0sx1P5QMoBY&t" className="text-selected-text hover:text-white">Video Demo</a></td>
                 </tr>
                 <tr>
                     <td className=" px-8 py-4"></td>

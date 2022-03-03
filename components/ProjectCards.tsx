@@ -40,7 +40,7 @@ const ProjectCards = () => {
         <h2 className="tertiary-title  mt-6">Sophia</h2>
         <p className="mt-6 section-paragraph">An educational hub for western philosophy built with Object Oriented Javascript and Ruby on Rails</p>
         <a href="https://www.youtube.com/watch?v=LBjXfIH-1FI&t" className="peer-hover:text-selected-text hover:text-selected-text">
-          <a className="peer mt-6 font-bold">VIEW PROJECT <span>›</span></a>
+          <a className="peer mt-6 font-bold">VIEW DEMO <span>›</span></a>
         </a>
         </div>
       </div>

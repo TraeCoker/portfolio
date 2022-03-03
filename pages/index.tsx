@@ -110,6 +110,7 @@ export default function Home() {
       
     </section>
   </div>
+  
 
       <Contact />
 
