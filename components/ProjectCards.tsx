@@ -18,7 +18,7 @@ const ProjectCards = () => {
             <img src="/new-mock-crypto.png" className="w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
           </a>
           <h2 className="tertiary-title  mt-6">CryptoXChange</h2>
-          <p className="mt-6 section-paragraph">A mock cryptocurrency exchange built with React, Redux, and Ruby on Rails</p>
+          <p className="mt-6 section-paragraph">A mock exchange and market display for the top 100 crypto currencies. Built with React, Redux, and Ruby on Rails</p>
           <a href="/projects/cryptoxchange" className="peer-hover:text-selected-text hover:text-selected-text">
             <a className="mt-6 font-bold">VIEW PROJECT <span>›</span></a>
           </a>

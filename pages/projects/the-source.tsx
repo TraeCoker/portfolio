@@ -94,7 +94,7 @@ export default function Project({ project }) {
             <div className="container mt-20 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-16 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-goal" className="secondary-title">Project Purpose and Goal</h2>
-				  <p className="section-paragraph">This project was inspired by my partner who is training to become a proffesional health coach.
+				  <p className="section-paragraph">This project was inspired by my partner who is training to become a professional health coach.
                   This was a mockup I worked up based on her and her colleagues ideas of what they would want in a health oriented learning platform.</p>
                   <p></p>
                   <p className="section-paragraph">My goal was to develop a site that was both visually captivating and easy to manage from an adminstrative perspective.
@@ -112,7 +112,7 @@ export default function Project({ project }) {
 
 				        <p className="section-paragraph">React was my go-to framework on the front-end, wired up to firebase for easy user authentication with JWT tokens and react-fire.</p>
                         <p className="section-paragraph">The Stripe SDK handles a lot of the heavy lifting when it comes to processing payments securely and managing recurring payments. It seemed the best choice for both my clients and their intended users.</p> 
-                        <p className="section-paragraph">I went with TypeScript on both the client and server for strong data typing and so I could access the Stripe documentaion directly in my IDE as I developed. </p>
+                        <p className="section-paragraph">I went with TypeScript on both the client and server for strong data typing, and so I could access the Stripe documentation directly in my IDE as I developed. </p>
                         <p className="section-paragraph">I chose Node.js for my back-end and used Express to build my API, knowing it would be lightweight. For production I chose to dockerize my server and deploy the container to the Google Cloud Platform.</p>
                         <p className="section-paragraph">Knowing a product like this would be accessed on varying devices, I chose Sass to make my UI responsive and manually wrote my media queries as a learning experience.</p>
                     </section>
@@ -145,7 +145,7 @@ export default function Project({ project }) {
 				  <h2 id="project-about" className="secondary-title">Problems and Thought Process</h2>
 
 				  <p className="section-paragraph">This was my first big project using TypeScript. Starting out I ran into some challenges getting the types for my Stripe Elements to match from the front-end to the back-end.</p>
-                  <p className="section-paragraph">After I built all the functionality of my Express API,  I discovered a Stripe extension built into the Firebase dashboard that I ended up using to handle the webhooks needed for recurring subscription payments. Getting to automate my subscription database updates without needing to route them through my server helped me achieve the same goal with less code.</p>
+                  <p className="section-paragraph">After I built all the functionality of my Express API,  I discovered a Stripe extension built into the Firebase dashboard that I ended up using to handle the web hooks needed for recurring subscription payments. Getting to automate my subscription database updates without needing to route them through my server helped me achieve the same goal with less code.</p>
                 </section>
             </div>
 

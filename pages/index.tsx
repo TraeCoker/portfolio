@@ -116,7 +116,7 @@ export default function Home() {
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
           <p className="section-paragraph">Hello there, my name is Trae Coker. I am a Musician, Writer, Community Builder, Flatiron School Alumni and Full Stack Software Engineer.</p>
-          <p className="section-paragraph">My highest aim is to take the industrious programatic skills I am cultivating every day and do my part to produce regenerative technologies that help solve the problems we currently face, and do to so whilst building products and experiences that are beautiful inside and out.</p>
+          <p className="section-paragraph">My highest aim is to take the industrious programmatic skills I am cultivating every day and do my part to produce regenerative technologies that help solve the problems we currently face, and to do so whilst building products and experiences that are beautiful inside and out.</p>
           <p className="section-paragraph">As I have grown as a developer I have been honored to meet engineers and mentors who have helped teach me and raise the bar on what is expected of a developer. </p>
         </section>
       </div>
@@ -131,8 +131,8 @@ export default function Home() {
             <p><span>○</span> React</p>
             <p><span>○</span> Python</p>
             <p><span>○</span> Node.js</p>
-            <p><span>○</span> HTML, CSS, Git</p>
-            <p><span>○</span> SQL/NOSQL/GraphQL</p>
+            <p><span>○</span> HTML5, responsive CSS, Git</p>
+            <p><span>○</span>{"SQL & NOSQL"}</p>
             <p><span>○</span> RESTful APIs</p>
           </div>
         </section>
@@ -142,7 +142,7 @@ export default function Home() {
       <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
         <section className="w-full">
           <h2 id="work" className="secondary-title">{"What I've been working on"}</h2>
-          <p className="section-paragraph">I keep busy and am always working on some sort of project. Have a look at some of the applications, technical writing, and organizations I have been a part of. </p>
+          <p className="section-paragraph">I keep busy and am always working on some sort of project. Have a look at some of the applications and technical writing I have been a part of. </p>
           <ProjectCards />
         </section>
       </div>

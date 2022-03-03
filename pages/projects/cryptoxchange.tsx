@@ -102,7 +102,7 @@ export default function Project({ project }) {
                 <div className="container mt-24 flex justify-between items-center mx-auto px-4 md:px-8 lg:px-12 w-full">
 			        <section className="w-full">
 				        <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
-				        <p className="section-paragraph">React was my go-to JavaScript framework for the front-end. The component structure helped easily organize the app logic by seperation of concerns.</p>
+				        <p className="section-paragraph">React was my go-to JavaScript framework for the front-end. The component structure helped easily organize the app logic by separation of concerns.</p>
                         <p className="section-paragraph">For handling the global app state I chose to implement Redux. Setting it up with Thunk middleware allowed me to fetch data and update the global state asynchronously which was a boon for frequently updating market data without disrupting the UX.</p>
                         <p className="section-paragraph">Ruby on Rails provided the MVC architecture for my back-end and gave me a foundation for building a RESTful API.</p>
                         <p className="section-paragraph">PostgreSQL supplied me with all the joins capabilities that my database schema required to create has-many relationships between my tables.</p>
@@ -144,7 +144,7 @@ export default function Project({ project }) {
             <div className="container mt-18 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Lessons Learned</h2>
-				  <p className="section-paragraph">This project taught me many great lessons about working with large datasets being fetched from 3rd parties, as well as manipulating and displaying data with inputs from multiple APIs.</p>
+				  <p className="section-paragraph">This project taught me many great lessons about working with large data sets being fetched from 3rd parties, as well as manipulating and displaying data with inputs from multiple APIs.</p>
                   <p className="section-paragraph">If I could build this again I would take a more rigorous TDD approach to my data rendering functions because I believe it could have saved me some of the time I spent debugging.</p>
                   <p className="section-paragraph">Knowing what I know now about responsive UI design, I would have woven responsive elements into my styling from the start instead of rewriting things after the fact.</p>
                 </section>
