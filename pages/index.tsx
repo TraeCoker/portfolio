@@ -96,7 +96,7 @@ export default function Home() {
             <p><span>○</span> Node.js</p>
             <p><span>○</span> HTML, CSS, Git</p>
             <p><span>○</span> SQL/NOSQL/GraphQL</p>
-            <p><span>○</span> Flutter</p>
+            <p><span>○</span> RESTful APIs</p>
           </div>
         </section>
       </div>
