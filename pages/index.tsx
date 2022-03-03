@@ -131,9 +131,9 @@ export default function Home() {
             <p><span>○</span> React</p>
             <p><span>○</span> {"Blockchain development & smart contracts"}</p>
             <p><span>○</span> Node.js</p>
-            <p><span>○</span> HTML5, responsive CSS, Git</p>
+            <p><span>○</span> {"HTML5, CSS, and resonsive UI design"}</p>
             <p><span>○</span>{"SQL & NOSQL"}</p>
-            <p><span>○</span> RESTful APIs</p>
+            <p><span>○</span> RESTful API development</p>
           </div>
         </section>
       </div>
