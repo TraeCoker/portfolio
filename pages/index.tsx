@@ -2,6 +2,7 @@ import { Contact } from '../components/Contact'
 import ProjectCards from '../components/ProjectCards'
 import { useScrollHandler } from '../utilities/useScrollHandler'
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 
 
@@ -27,12 +28,21 @@ export default function Home() {
           <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-down">
               <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
               <div className="hidden md:flex space-x-12 items-center">
-                  <a href="#" className="text-selected-text">Home</a>
-                  <a href="#about" className="hover:text-selected-text">About me</a>
-                  <a href="#work" className="hover:text-selected-text">My work</a>
-                  <a href="https://github.com/TraeCoker" className="hover:text-selected-text" >GitHub</a>
-                  <a href="https://linkedin.com/in/traecoker" className="hover:text-selected-text">LinkedIn</a>
-                  <a href="https://docs.google.com/document/d/1x6BSoMy3sXurjqhYVUJXpUtI0fd-7PpSQLIOzexseJM/edit?usp=sharing"><button className="px-6 py-2 bg-theme font-bold">Resume</button></a>
+                  <Link href="#about">
+                    <a  className="hover:text-selected-text">About me</a>
+                  </Link>
+                  <Link href="#work">
+                    <a  className="hover:text-selected-text">My work</a>
+                  </Link>
+                  <Link href="https://github.com/TraeCoker">
+                    <a  className="hover:text-selected-text" >GitHub</a>
+                  </Link>
+                  <Link href="https://linkedin.com/in/traecoker">
+                    <a  className="hover:text-selected-text">LinkedIn</a>
+                  </Link>
+                  <Link href="https://docs.google.com/document/d/1x6BSoMy3sXurjqhYVUJXpUtI0fd-7PpSQLIOzexseJM/edit?usp=sharing">
+                    <a><button className="px-6 py-2 bg-theme font-bold">Resume</button></a>
+                  </Link>
               </div>
               <div className="md:hidden">
                   <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
@@ -45,28 +55,39 @@ export default function Home() {
 
               <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
                   <div className="absolute left-25 transform -translate-x-1/2 space-y-6 mt-36">
-                      <a href="#" className={(scrollPosition < 600 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                    <Link href="#">
+                        <a  className={(scrollPosition < 600 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
-                      </a>
-                      <a href="#about" className={(scrollPosition > 600 && scrollPosition < 1000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        </a>
+                    </Link>
+                    <Link href="#about">
+                        <a  className={(scrollPosition > 600 && scrollPosition < 1000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
-                      </a>
-                      <a href="#skills" className={(scrollPosition > 1000 && scrollPosition < 1500 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        </a>
+                    </Link>  
+                    <Link href="#skills">
+                        <a  className={(scrollPosition > 1000 && scrollPosition < 1500 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
-                      </a>
-                      <a href="#work" className={(scrollPosition > 1500 && scrollPosition < 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        </a>
+                    </Link> 
+                    <Link href="#work">
+                        <a  className={(scrollPosition > 1500 && scrollPosition < 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
-                      </a>
-                      <a href="#hire" className={(scrollPosition > 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                        </a>
+                    </Link>
+                    <Link href="#hire">
+                        <a  className={(scrollPosition > 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
-                      </a>
+                        </a>
+                    </Link>
                   </div>
               </nav>
 
               <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36 -z-1 ">
                   <h1 className=" font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left animate-fade-in-up-m ">Building<br/> the web of tomorrow.</h1>
                   <div className="w-full flex justify-center md:justify-start">
-                      <a href="#work" className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 animate-fade-in-up-s">
+                    <Link href="#work">
+                      <a  className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 animate-fade-in-up-s">
                           <div>
                               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
@@ -75,6 +96,7 @@ export default function Home() {
                           </div>
                           <span >View my work.</span>
                       </a>
+                    </Link>
                   </div>
               </div>
               <img src="/me4.png" alt="Picture of Trae Coker" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 animate-fade-in-up-s" />
