@@ -37,7 +37,7 @@ export default function Project({ project }) {
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-m">
 			    <section className="w-full">
-				  <h2 id="project-about" className="secondary-title">cryptoXchange</h2>
+				  <h2 id="project-about" className="secondary-title">CryptoXchange</h2>
 
 				  <p className="section-paragraph">My capstone project for the Flatiron School, cryptoXchange is a mock cryptocurrency exchange featuring a wallet for users, 
                   historical charts showing gains and losses of wallets over time, 
@@ -145,7 +145,7 @@ export default function Project({ project }) {
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Lessons Learned</h2>
 				  <p className="section-paragraph">This project taught me many great lessons about working with large data sets being fetched from 3rd parties, as well as manipulating and displaying data with inputs from multiple APIs.</p>
-                  <p className="section-paragraph">If I could build this again I would take a more rigorous TDD approach to my data rendering functions because I believe it could have saved me some of the time I spent debugging.</p>
+                  <p className="section-paragraph">If I could build this again, then from the start I would plan a more rigorous TDD approach to my data rendering functions because I believe it could have saved me some time I spent debugging.</p>
                   <p className="section-paragraph">Knowing what I know now about responsive UI design, I would have woven responsive elements into my styling from the start instead of rewriting things after the fact.</p>
                 </section>
             </div>

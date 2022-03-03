@@ -129,7 +129,7 @@ export default function Home() {
             <p><span>○</span> JavaScript ES6</p>
             <p><span>○</span> Ruby on Rails</p>
             <p><span>○</span> React</p>
-            <p><span>○</span> Python</p>
+            <p><span>○</span> {"Blockchain development & smart contracts"}</p>
             <p><span>○</span> Node.js</p>
             <p><span>○</span> HTML5, responsive CSS, Git</p>
             <p><span>○</span>{"SQL & NOSQL"}</p>
