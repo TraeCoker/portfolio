@@ -2,7 +2,7 @@
 const ProjectCards = () => {
     
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 mt-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 mt-6 animate-fade-in-up-s">
         <div className="mt-6">
           <a href="/projects/the-source" className="peer">
             <img src="/mock-source-3.png" className="w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>

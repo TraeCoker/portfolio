@@ -24,12 +24,12 @@ export default function Project({ project }) {
             </Head>
 
             <header className="py-6">
-          <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+          <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-down">
           <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
           </div>
           </header>
 
-            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-m">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">THE SOURCE</h2>
 				  <p className="section-paragraph">The Source is an e-commerce storefront I built for a company selling digital products and subscription services.
@@ -37,7 +37,7 @@ export default function Project({ project }) {
                 </section>
             </div>
 
-            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
             <table className="shadow-lg bg-grey">
                 <tr>
                     <th className="bg-theme border border-body text-left px-8 py-4">Type</th>
@@ -80,11 +80,11 @@ export default function Project({ project }) {
                 </table>
             </div>
 
-            <div className="px-20 py-20 ">
+            <div className="px-20 py-20 animate-fade-in-up-s">
                 <Image src={bannerPic} priority />
             </div>
 
-            <div className="container mt-20 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-16 w-full">
+            <div className="container mt-20 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-16 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-goal" className="secondary-title">Project Purpose and Goal</h2>
 				  <p className="section-paragraph">This project was inspired by my partner who is training to become a proffesional health coach.
@@ -95,7 +95,7 @@ export default function Project({ project }) {
                 </section>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-16 animate-fade-in-up-s">
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
                 <Image src={stackPic} priority />
             </div>
@@ -113,7 +113,7 @@ export default function Project({ project }) {
             
 
             <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-24 animate-fade-in-up-s">
             <div className="px-8 py-8 row-span-4">
             <Image src={fullPic} priority />
             </div>
@@ -133,7 +133,7 @@ export default function Project({ project }) {
                 
             </div>
 
-            <div className="container mt-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div className="container mt-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Problems and Thought Process</h2>
 				  <p className="section-paragraph">This was my first big project using TypeScript. Starting out I ran into some challenges getting the types for my Stripe Elements to match from the front-end to the back-end.</p>
@@ -141,11 +141,11 @@ export default function Project({ project }) {
                 </section>
             </div>
 
-            <div className="mt-24 px-20 py-20">
+            <div className="mt-24 px-20 py-20 animate-fade-in-up-s">
                 <Image src={bottmPic} priority />
             </div>
 
-            <div className="container mt-18 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div className="container mt-18 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Lessons Learned</h2>
 				  <p className="section-paragraph">This project taught me a lot about micro-services and the importance of designing your projects well so that all the moving parts can make harmonious music together.</p>
@@ -153,7 +153,7 @@ export default function Project({ project }) {
                 </section>
             </div>
 
-            <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
         <section className="w-full">
           <h2 id="work" className="secondary-title">Other Projects</h2>
           <ProjectCards />
