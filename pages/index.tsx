@@ -72,7 +72,7 @@ export default function Home() {
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
           <p className="section-paragraph">Hello there, my name is Trae Coker. I am a Musician, Writer, Community Builder, Flatiron School Alumni and Full Stack Software Engineer.</p>
-          <p className="section-paragraph">My highest aim is to take the industrious programatic skills I am cultivating every day and do my part to produce regenerative technologies that help solve the problems we currently face, and all whilst building products and experiences that are beautiful inside and out.</p>
+          <p className="section-paragraph">My highest aim is to take the industrious programatic skills I am cultivating every day and do my part to produce regenerative technologies that help solve the problems we currently face, and do to so whilst building products and experiences that are beautiful inside and out.</p>
           <p className="section-paragraph">As I have grown as a developer I have been honored to meet engineers and mentors who have helped teach me and raise the bar on what is expected of a developer. </p>
         </section>
       </div>

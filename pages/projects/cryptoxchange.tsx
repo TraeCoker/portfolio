@@ -8,7 +8,6 @@ import screenShotTwo from '../../public/crypto-wallet-top.png'
 import screenShotOne from '../../public/crypto-sign.png'
 import bottmPic from '../../public/crypto-wallet-top.png'
 import stackPic from '../../public/crypto-stack-2.png'
-import CourseCards from '../../components/ProjectCards'
 import ProjectCards from '../../components/ProjectCards'
 import { Contact } from '../../components/Contact'
 
@@ -33,7 +32,7 @@ export default function Project({ project }) {
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">cryptoXchange</h2>
 				  <p className="section-paragraph">My capstone project for the Flatiron School, cryptoXchange is a mock cryptocurrency exchange featuring a wallet for users, 
-                  historical charts showing gains and losses of wallet over time, 
+                  historical charts showing gains and losses of wallets over time, 
                   and real-time market data display of the top 100 crypto currencies on the market via the 3rd party CoinGecko API. </p>
                 </section>
             </div>
@@ -96,7 +95,7 @@ export default function Project({ project }) {
 			    <section className="w-full">
 				  <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
 				  <p className="section-paragraph">React was my go-to JavaScript framework for the front-end. The component structure helped easily organize the app logic by seperation of concerns.</p>
-                  <p className="section-paragraph">For handling the global app state I chose to implement Redux. Setting it up with Thunk middleware allowed me to fetch data and update my state asynchronously which was a boon for frequently updating market data without disrupting the UX.</p>
+                  <p className="section-paragraph">For handling the global app state I chose to implement Redux. Setting it up with Thunk middleware allowed me to fetch data and update the global state asynchronously which was a boon for frequently updating market data without disrupting the UX.</p>
                   <p className="section-paragraph">Ruby on Rails provided the MVC architecture for my back-end and gave me a foundation for building a RESTful API.</p>
                   <p className="section-paragraph">PostgreSQL supplied me with all the joins capabilities that my database schema required to create has-many relationships between my tables.</p>
                   <p className="section-paragraph">I went with Chart.js for my data display because it provided much of what I needed feature wise out of the box with easy to implement modifications.</p>

@@ -103,7 +103,7 @@ export default function Project({ project }) {
 			    <section className="w-full">
 				  <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
 				  <p className="section-paragraph">React was my go-to framework on the front-end, wired up to firebase for easy user authentication with JWT tokens and react-fire.</p>
-          <p className="section-paragraph">The Stripe SDK handles a lot of the heavy lifting when it comes to processing payments securely and managing recurring payments. It seemed the best choice for my intended admins.</p> 
+          <p className="section-paragraph">The Stripe SDK handles a lot of the heavy lifting when it comes to processing payments securely and managing recurring payments. It seemed the best choice for both my clients and their intended users.</p> 
           <p className="section-paragraph">I went with TypeScript on both the client and server for strong data typing and so I could access the Stripe documentaion directly in my IDE as I developed. </p>
           <p className="section-paragraph">I chose Node.js for my back-end and used Express to build my API, knowing it would be lightweight. For production I chose to dockerize my server and deploy the container to the Google Cloud Platform.</p>
           <p className="section-paragraph">Knowing a product like this would be accessed on varying devices, I chose Sass to make my UI responsive and manually wrote my media queries as a learning experience.</p>
