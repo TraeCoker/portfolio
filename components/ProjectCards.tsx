@@ -25,7 +25,7 @@ const ProjectCards = () => {
         </div>
         <div className="mt-6 ">
           <a href="https://alchemical-bytes.medium.com/">
-            <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
+            <img src="/blog-5.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
           </a>
         <h2 className="tertiary-title  mt-6">Technical Writing Blog</h2>
         <p className="mt-6 section-paragraph">I like to write tutorials and technical blogs on Medium to help other aspiring developers</p>
@@ -35,7 +35,7 @@ const ProjectCards = () => {
         </div>
         <div className="mt-6 ">
           <a href="https://www.youtube.com/watch?v=LBjXfIH-1FI&t">
-            <img src="/mock-source-3.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
+            <img src="/sophia-6.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
           </a>
         <h2 className="tertiary-title  mt-6">Sophia</h2>
         <p className="mt-6 section-paragraph">An educational hub for western philosophy built with Object Oriented vanilla Javascript and Ruby on Rails</p>
