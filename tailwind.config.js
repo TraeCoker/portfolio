@@ -66,7 +66,7 @@ module.exports = {
         'input': '#2A2A35'
       },
       fontFamily: {
-        'poppins': ["'Poppins", 'sans-serif']
+        'poppins': ['Poppins', 'sans-serif']
       }
     },
   },
