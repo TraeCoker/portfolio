@@ -46,6 +46,11 @@ module.exports = {
           }
         },
       },
+      animation: {
+        moveInBottom: 'moveInBottom 1s ease-out',
+        moveInRight: 'moveInRight 1s ease-out',
+        moveInLeft: 'moveInLeft 1s ease-out',
+      },
       colors: {
         'body': '#17171f',
         'selected-text': '#A3A3FF',
