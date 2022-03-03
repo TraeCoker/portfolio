@@ -1,10 +1,14 @@
 import Head from 'next/head'
 import { Contact } from '../components/Contact'
 import ProjectCards from '../components/ProjectCards'
+import { useScrollHandler } from '../utilities/useScrollHandler'
 
 
 
 export default function Home() {
+  const scrollPosition = useScrollHandler();
+  console.log(scrollPosition)
+
   return (
     <div className="bg-body text-white font-poppins pb-12">
       <Head>
