@@ -24,7 +24,7 @@ export default function Project({ project }) {
 
             <header className="py-6">
           <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-              <div className="text-lg font-bold">Trae Coker</div>
+            <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
           </div>
           </header>
 

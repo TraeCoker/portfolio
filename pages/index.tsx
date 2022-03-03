@@ -15,7 +15,7 @@ export default function Home() {
     
       <header className="py-6">
           <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-              <div className="text-lg font-bold">Trae Coker</div>
+              <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
               <div className="hidden md:flex space-x-12 items-center">
                   <a href="#" className="text-selected-text">Home</a>
                   <a href="#about">About me</a>
@@ -97,7 +97,7 @@ export default function Home() {
       <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
     <section className="w-full">
       <h2 id="work" className="secondary-title">What I've been working on</h2>
-      <p className="section-paragraph">I keep busy and am always working up some sort of project. Have a look at some of the applications, technical writing, and organizations I have been a part of. </p>
+      <p className="section-paragraph">I keep busy and am always working on some sort of project. Have a look at some of the applications, technical writing, and organizations I have been a part of. </p>
       <ProjectCards />
       
     </section>
