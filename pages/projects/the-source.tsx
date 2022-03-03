@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 import Image from 'next/image'
 import bannerPic from '../../public/source-laptop-3.png'
 import fullPic from '../../public/source-full.png'
@@ -19,15 +19,22 @@ export default function Project({ project }) {
     const { name } = router.query
     return (
         <div>
-            <Head>
-                <title>The Source E-Commerce Application</title>
-            </Head>
+            <NextSeo
+                title="The Source - E-commerce Application"
+                description="Full stack e-commerce web app built with react, node.js, typescript, and stripe. "
+                additionalLinkTags={
+                    [
+                        {rel: "icon",
+                        href: "/favicon.ico"}
+                    ]
+                }
+            />
 
             <header className="py-6">
-          <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-down">
-          <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
-          </div>
-          </header>
+                <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-down">
+                <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
+                </div>
+            </header>
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-m">
 			    <section className="w-full">
@@ -96,48 +103,49 @@ export default function Project({ project }) {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-16 animate-fade-in-up-s">
-            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-                <Image src={stackPic} priority />
-            </div>
-            <div className="container mt-24 flex justify-between items-center mx-auto px-4 md:px-8 lg:px-12 w-full">
-			    <section className="w-full">
-				  <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
-				  <p className="section-paragraph">React was my go-to framework on the front-end, wired up to firebase for easy user authentication with JWT tokens and react-fire.</p>
-          <p className="section-paragraph">The Stripe SDK handles a lot of the heavy lifting when it comes to processing payments securely and managing recurring payments. It seemed the best choice for both my clients and their intended users.</p> 
-          <p className="section-paragraph">I went with TypeScript on both the client and server for strong data typing and so I could access the Stripe documentaion directly in my IDE as I developed. </p>
-          <p className="section-paragraph">I chose Node.js for my back-end and used Express to build my API, knowing it would be lightweight. For production I chose to dockerize my server and deploy the container to the Google Cloud Platform.</p>
-          <p className="section-paragraph">Knowing a product like this would be accessed on varying devices, I chose Sass to make my UI responsive and manually wrote my media queries as a learning experience.</p>
-                </section>
-            </div>
+                <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+                    <Image src={stackPic} priority />
+                </div>
+                <div className="container mt-24 flex justify-between items-center mx-auto px-4 md:px-8 lg:px-12 w-full">
+			        <section className="w-full">
+				        <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
+
+				        <p className="section-paragraph">React was my go-to framework on the front-end, wired up to firebase for easy user authentication with JWT tokens and react-fire.</p>
+                        <p className="section-paragraph">The Stripe SDK handles a lot of the heavy lifting when it comes to processing payments securely and managing recurring payments. It seemed the best choice for both my clients and their intended users.</p> 
+                        <p className="section-paragraph">I went with TypeScript on both the client and server for strong data typing and so I could access the Stripe documentaion directly in my IDE as I developed. </p>
+                        <p className="section-paragraph">I chose Node.js for my back-end and used Express to build my API, knowing it would be lightweight. For production I chose to dockerize my server and deploy the container to the Google Cloud Platform.</p>
+                        <p className="section-paragraph">Knowing a product like this would be accessed on varying devices, I chose Sass to make my UI responsive and manually wrote my media queries as a learning experience.</p>
+                    </section>
+                </div>
             </div>
             
 
             <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-24 animate-fade-in-up-s">
-            <div className="px-8 py-8 row-span-4">
-            <Image src={fullPic} priority />
-            </div>
-            <div className="px-8 py-8">
-            <Image src={screenShotOne}  priority/>
-            </div>
-            <div className="px-8 py-8">
-            <Image src={screenShotTwo} priority/>
-            </div>
-           <div className="px-8 py-8">
-           <Image src={screenShotThree} priority/>
-           </div>
-            <div className="px-8 py-8">
-            <Image src={screenShotFour} priority />
-            </div>
-            </div>
-                
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-24 animate-fade-in-up-s">
+                    <div className="px-8 py-8 row-span-4">
+                        <Image src={fullPic} priority />
+                    </div>
+                    <div className="px-8 py-8">
+                        <Image src={screenShotOne}  priority/>
+                    </div>
+                    <div className="px-8 py-8">
+                        <Image src={screenShotTwo} priority/>
+                    </div>
+                    <div className="px-8 py-8">
+                        <Image src={screenShotThree} priority/>
+                    </div>
+                    <div className="px-8 py-8">
+                        <Image src={screenShotFour} priority />
+                    </div>
+                </div>
             </div>
 
             <div className="container mt-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Problems and Thought Process</h2>
+
 				  <p className="section-paragraph">This was my first big project using TypeScript. Starting out I ran into some challenges getting the types for my Stripe Elements to match from the front-end to the back-end.</p>
-          <p className="section-paragraph">After I built all the functionality of my Express API,  I discovered a Stripe extension built into the Firebase dashboard that I ended up using to handle the webhooks needed for recurring subscription payments. Getting to automate my subscription database updates without needing to route them through my server helped me achieve the same goal with less code.</p>
+                  <p className="section-paragraph">After I built all the functionality of my Express API,  I discovered a Stripe extension built into the Firebase dashboard that I ended up using to handle the webhooks needed for recurring subscription payments. Getting to automate my subscription database updates without needing to route them through my server helped me achieve the same goal with less code.</p>
                 </section>
             </div>
 
@@ -148,19 +156,21 @@ export default function Project({ project }) {
             <div className="container mt-18 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Lessons Learned</h2>
+
 				  <p className="section-paragraph">This project taught me a lot about micro-services and the importance of designing your projects well so that all the moving parts can make harmonious music together.</p>
-          <p className="section-paragraph">If I were to build this again I would choose a more modern CSS framework so that I could achieve the same results with less bulk. This project was very image heavy and I would want to implement more responsive image processing to assure the best UX is being delivered to all users at all times. </p>
+                  <p className="section-paragraph">If I were to build this again I would choose a more modern CSS framework so that I could achieve the same results with less bulk. This project was very image heavy and I would want to implement more responsive image processing to assure the best UX is being delivered to all users at all times. </p>
                 </section>
             </div>
 
             <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
-        <section className="w-full">
-          <h2 id="work" className="secondary-title">Other Projects</h2>
-          <ProjectCards />
-        </section>
-      </div>
+                <section className="w-full">
+                    <h2 id="work" className="secondary-title">Other Projects</h2>
 
-      <Contact />
+                    <ProjectCards />
+                </section>
+            </div>
+
+            <Contact />
         </div>
     )
 }

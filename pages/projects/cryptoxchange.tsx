@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 import Image from 'next/image'
 import bannerPic from '../../public/crypto-top.png'
 import fullPic from '../../public/crypto-market-full.png'
@@ -18,19 +18,27 @@ export default function Project({ project }) {
     const { name } = router.query
     return (
         <div>
-            <Head>
-                <title>CryptoXChange Cryptocurrency Application</title>
-            </Head>
+            <NextSeo
+                title="CryptoXChange a Cryptopcurrency Wallet App"
+                description="Full stack cryptocurrency exchange web app built with react, ruby on rails, redux, and chart.js. "
+                additionalLinkTags={
+                    [
+                        {rel: "icon",
+                        href: "/favicon.ico"}
+                    ]
+                }
+            />
 
             <header className="py-6">
-          <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-down">
-            <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
-          </div>
-          </header>
+                <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-down">
+                    <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
+                </div>
+            </header>
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-m">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">cryptoXchange</h2>
+
 				  <p className="section-paragraph">My capstone project for the Flatiron School, cryptoXchange is a mock cryptocurrency exchange featuring a wallet for users, 
                   historical charts showing gains and losses of wallets over time, 
                   and real-time market data display of the top 100 crypto currencies on the market via the 3rd party CoinGecko API. </p>
@@ -38,37 +46,37 @@ export default function Project({ project }) {
             </div>
 
             <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
-            <table className="shadow-lg bg-grey">
-                <tr>
-                    <th className="bg-theme border border-body text-left px-8 py-4">Type</th>
-                    <th className="bg-theme border border-body text-left px-8 py-4">Stack</th>
-                    <th className="bg-theme border border-body text-left px-8 py-4">Code</th>
-                    <th className="bg-theme border border-body text-left px-8 py-4">Demo</th>
-                </tr>
-                <tr>
-                    <td className=" px-8 py-4">Cryptocurrency</td>
-                    <td className=" px-8 py-4">React</td>
-                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/crypto-wallet-frontend" className="text-selected-text hover:text-white">Front-End Repo</a></td>
-                    <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=PcPqTjJIAXU" className="text-selected-text hover:text-white">Video Demo</a></td>
-                </tr>
-                <tr>
-                    <td className=" px-8 py-4">Full-Stack</td>
-                    <td className=" px-8 py-4">Ruby on Rails</td>
-                    <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/crypto-wallet-backend" className="text-selected-text hover:text-white">Back-End Repo</a></td>
-                    <td className=" px-8 py-4"></td>
-                </tr>
-                <tr>
-                    <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Redux</td>
-                </tr>
-                <tr>
-                    <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">PostgreSQL</td>
-                </tr>
-                <tr>
-                    <td className=" px-8 py-4"></td>
-                    <td className=" px-8 py-4">Chart.js</td>
-                </tr>
+                <table className="shadow-lg bg-grey">
+                    <tr>
+                        <th className="bg-theme border border-body text-left px-8 py-4">Type</th>
+                        <th className="bg-theme border border-body text-left px-8 py-4">Stack</th>
+                        <th className="bg-theme border border-body text-left px-8 py-4">Code</th>
+                        <th className="bg-theme border border-body text-left px-8 py-4">Demo</th>
+                    </tr>
+                    <tr>
+                        <td className=" px-8 py-4">Cryptocurrency</td>
+                        <td className=" px-8 py-4">React</td>
+                        <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/crypto-wallet-frontend" className="text-selected-text hover:text-white">Front-End Repo</a></td>
+                        <td className=" px-8 py-4"><a href="https://www.youtube.com/watch?v=PcPqTjJIAXU" className="text-selected-text hover:text-white">Video Demo</a></td>
+                    </tr>
+                    <tr>
+                        <td className=" px-8 py-4">Full-Stack</td>
+                        <td className=" px-8 py-4">Ruby on Rails</td>
+                        <td className=" px-8 py-4 "><a href="https://github.com/TraeCoker/crypto-wallet-backend" className="text-selected-text hover:text-white">Back-End Repo</a></td>
+                        <td className=" px-8 py-4"></td>
+                    </tr>
+                    <tr>
+                        <td className=" px-8 py-4"></td>
+                        <td className=" px-8 py-4">Redux</td>
+                    </tr>
+                    <tr>
+                        <td className=" px-8 py-4"></td>
+                        <td className=" px-8 py-4">PostgreSQL</td>
+                    </tr>
+                    <tr>
+                        <td className=" px-8 py-4"></td>
+                        <td className=" px-8 py-4">Chart.js</td>
+                    </tr>
                 </table>
             </div>
 
@@ -88,38 +96,37 @@ export default function Project({ project }) {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-16 animate-fade-in-up-s">
-            <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-                <Image src={stackPic} priority />
-            </div>
-            <div className="container mt-24 flex justify-between items-center mx-auto px-4 md:px-8 lg:px-12 w-full">
-			    <section className="w-full">
-				  <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
-				  <p className="section-paragraph">React was my go-to JavaScript framework for the front-end. The component structure helped easily organize the app logic by seperation of concerns.</p>
-                  <p className="section-paragraph">For handling the global app state I chose to implement Redux. Setting it up with Thunk middleware allowed me to fetch data and update the global state asynchronously which was a boon for frequently updating market data without disrupting the UX.</p>
-                  <p className="section-paragraph">Ruby on Rails provided the MVC architecture for my back-end and gave me a foundation for building a RESTful API.</p>
-                  <p className="section-paragraph">PostgreSQL supplied me with all the joins capabilities that my database schema required to create has-many relationships between my tables.</p>
-                  <p className="section-paragraph">I went with Chart.js for my data display because it provided much of what I needed feature wise out of the box with easy to implement modifications.</p>
-                </section>
-            </div>
+                <div className="container mt-6 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+                    <Image src={stackPic} priority />
+                </div>
+                <div className="container mt-24 flex justify-between items-center mx-auto px-4 md:px-8 lg:px-12 w-full">
+			        <section className="w-full">
+				        <h2 id="project-stack-text" className="secondary-title">Stack and Explanation</h2>
+				        <p className="section-paragraph">React was my go-to JavaScript framework for the front-end. The component structure helped easily organize the app logic by seperation of concerns.</p>
+                        <p className="section-paragraph">For handling the global app state I chose to implement Redux. Setting it up with Thunk middleware allowed me to fetch data and update the global state asynchronously which was a boon for frequently updating market data without disrupting the UX.</p>
+                        <p className="section-paragraph">Ruby on Rails provided the MVC architecture for my back-end and gave me a foundation for building a RESTful API.</p>
+                        <p className="section-paragraph">PostgreSQL supplied me with all the joins capabilities that my database schema required to create has-many relationships between my tables.</p>
+                        <p className="section-paragraph">I went with Chart.js for my data display because it provided much of what I needed feature wise out of the box with easy to implement modifications.</p>
+                    </section>
+                </div>
             </div>
             
 
             <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-24 animate-fade-in-up-s">
-            <div className="px-8 py-8 row-span-4">
-            <Image src={fullPic} priority />
-            </div>
-            <div className="px-8 py-8">
-            <Image src={screenShotOne}  priority/>
-            </div>
-            <div className="px-8 py-8">
-            <Image src={screenShotTwo} priority/>
-            </div>
-           <div className="px-8 py-8">
-           <Image src={screenShotThree} priority/>
-           </div>
-            </div>
-                
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-24 animate-fade-in-up-s">
+                    <div className="px-8 py-8 row-span-4">
+                        <Image src={fullPic} priority />
+                    </div>
+                    <div className="px-8 py-8">
+                        <Image src={screenShotOne}  priority/>
+                    </div>
+                    <div className="px-8 py-8">
+                        <Image src={screenShotTwo} priority/>
+                    </div>
+                    <div className="px-8 py-8">
+                        <Image src={screenShotThree} priority/>
+                    </div>
+                </div>    
             </div>
 
             <div className="container mt-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
@@ -144,13 +151,14 @@ export default function Project({ project }) {
             </div>
 
             <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
-        <section className="w-full">
-          <h2 id="work" className="secondary-title">Other Projects</h2>
-          <ProjectCards />
-        </section>
-      </div>
+                <section className="w-full">
+                    <h2 id="work" className="secondary-title">Other Projects</h2>
 
-      <Contact />
+                    <ProjectCards />
+                </section>
+            </div>
+
+            <Contact />
         </div>
     )
 }

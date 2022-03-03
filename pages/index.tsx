@@ -1,7 +1,7 @@
-import Head from 'next/head'
 import { Contact } from '../components/Contact'
 import ProjectCards from '../components/ProjectCards'
 import { useScrollHandler } from '../utilities/useScrollHandler'
+import { NextSeo } from 'next-seo';
 
 
 
@@ -10,11 +10,17 @@ export default function Home() {
 
   return (
     <div className="bg-body text-white font-poppins pb-12">
-      <Head>
-        <title>Trae Coker - Full Stack Developer</title>
-        <meta name="description" content="Software engineer portfolio trae coker react node javascript react python next hiring" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+
+      <NextSeo
+        title="Trae Coker - Full Stack Web Developer"
+        description="Trae Coker, full stack software engineer, web developer, and web3 blockchain developer."
+        additionalLinkTags={
+          [
+            {rel: "icon",
+            href: "/favicon.ico"}
+          ]
+        }
+       />
 
     
       <header className="py-6">
@@ -103,17 +109,15 @@ export default function Home() {
 
 
       <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
-    <section className="w-full">
-      <h2 id="work" className="secondary-title">What I've been working on</h2>
-      <p className="section-paragraph">I keep busy and am always working on some sort of project. Have a look at some of the applications, technical writing, and organizations I have been a part of. </p>
-      <ProjectCards />
-      
-    </section>
-  </div>
+        <section className="w-full">
+          <h2 id="work" className="secondary-title">What I've been working on</h2>
+          <p className="section-paragraph">I keep busy and am always working on some sort of project. Have a look at some of the applications, technical writing, and organizations I have been a part of. </p>
+          <ProjectCards />
+        </section>
+      </div>
   
-
       <Contact />
 
-    </div>
+  </div>
   )
 }
