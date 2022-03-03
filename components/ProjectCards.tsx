@@ -38,7 +38,7 @@ const ProjectCards = () => {
             <img src="/sophia-6.png" className="peer w-full bg-nav h-36 lg:h-80 xl:h-96 object-cover cursor-pointer transition duration-500 hover:scale-95"/>
           </a>
         <h2 className="tertiary-title  mt-6">Sophia</h2>
-        <p className="mt-6 section-paragraph">An educational hub for western philosophy built with Object Oriented vanilla Javascript and Ruby on Rails</p>
+        <p className="mt-6 section-paragraph">An educational hub for western philosophy built with Object Oriented Javascript and Ruby on Rails</p>
         <a href="https://www.youtube.com/watch?v=LBjXfIH-1FI&t" >
           <a className="peer mt-6 cursor-pointer peer-hover:text-selected-text hover:text-selected-text font-bold">VIEW PROJECT <span>›</span></a>
         </a>

@@ -70,12 +70,9 @@ export default function Home() {
       <div className="container mt-60 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
-				  <p className="section-paragraph">Hi there, my name is Trae. I am a full stack web developer and student of all things computer science.
-          In my diverse past lives I have been a proffesional musician, meditation teacher, music venue manager and community builder. These days I am taking the industriousness and artistry I learned in these domains and channeling them into 
-          developing code and applications that are effective and beautiful inside and out.</p>
-          <p className="section-paragraph">After graduating from the Flatiron School's software engineering program, I have been studying blockchain development
-          and the use cases of regerative technologies to help solve the various crisis and coordination issues that we currently face.</p>
-          <p className="section-paragraph">As I have grown and cultivated my development skills I have met many experienced developers and mentors who have raised my standards for what it means to write beautiful code and create beautiful products.</p>
+          <p className="section-paragraph">Hello there, my name is Trae Coker. I am a Musician, Writer, Community Builder, Flatiron School Alumni and Full Stack Software Engineer.</p>
+          <p className="section-paragraph">My highest aim is to take the industrious programatic skills I am cultivating every day and do my part to produce regenerative technologies that help solve the problems we currently face, and all whilst building products and experiences that are beautiful inside and out.</p>
+          <p className="section-paragraph">As I have grown as a developer I have been honored to meet engineers and mentors who have helped teach me and raise the bar on what is expected of a developer. </p>
         </section>
       </div>
 
