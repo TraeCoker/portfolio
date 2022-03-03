@@ -5,51 +5,53 @@ module.exports = {
   ],
   theme: {
     extend: {
-      keyframes:{
-        moveInBottom: {
-          '0%': {
-            opacity: '0',
-            transform: 'translateY(10rem)'
-          },
-          '80%': {
-            transform: 'translateY(-1rem)'
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translate(0)'
-          }
+      keyframes: {
+        'fade-in-down': {
+            '0%': {
+                opacity: '0',
+                transform: 'translateY(-10px)'
+            },
+            '100%': {
+                opacity: '1',
+                transform: 'translateY(0)'
+            },
         },
-        moveInRight: {
-          '0%': {
-            opacity: '0',
-            transform: 'translateX(10rem)'
-          },
-          '80%': {
-            transform: 'translateX(-1rem)'
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translate(0)'
-          }
+        'fade-out-down': {
+            'from': {
+                opacity: '1',
+                transform: 'translateY(0px)'
+            },
+            'to': {
+                opacity: '0',
+                transform: 'translateY(10px)'
+            },
         },
-        moveInLeft: {
-          '0%': {
-            opacity: '0',
-            transform: 'translateX(-10rem)'
-          },
-          '80%': {
-            transform: 'translateX(1rem)'
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translate(0)'
-          }
+        'fade-in-up': {
+            '0%': {
+                opacity: '0',
+                transform: 'translateY(10px)'
+            },
+            '100%': {
+                opacity: '1',
+                transform: 'translateY(0)'
+            },
         },
+        'fade-out-up': {
+            'from': {
+                opacity: '1',
+                transform: 'translateY(0px)'
+            },
+            'to': {
+                opacity: '0',
+                transform: 'translateY(10px)'
+            },
+        }
       },
       animation: {
-        moveInBottom: 'moveInBottom 1s ease-out',
-        moveInRight: 'moveInRight 1s ease-out',
-        moveInLeft: 'moveInLeft 1s ease-out',
+        'fade-in-down': 'fade-in-down 0.5s ease-out',
+        'fade-out-down': 'fade-out-down 0.5s ease-out',
+        'fade-in-up': 'fade-in-up 0.5s ease-out',
+        'fade-out-up': 'fade-out-up 0.5s ease-out'
       },
       colors: {
         'body': '#17171f',

@@ -57,8 +57,8 @@ export default function Home() {
                   </div>
               </nav>
 
-              <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36 -z-1">
-                  <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br/> the web of tomorrow.</h1>
+              <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36 -z-1 animate-fade-in-up">
+                  <h1 className=" font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left animate-move-in-right">Building<br/> the web of tomorrow.</h1>
                   <div className="w-full flex justify-center md:justify-start">
                       <a href="#work" className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
                           <div>
@@ -71,7 +71,7 @@ export default function Home() {
                       </a>
                   </div>
               </div>
-              <img src="/me4.png" alt="Picture of Trae Coker" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 " />
+              <img src="/me4.png" alt="Picture of Trae Coker" className="w-3/4 mt-12 md:absolute -mt-6 md:mt-0 right-0 animate-fade-in-up" />
           </div>
       </div>
       
