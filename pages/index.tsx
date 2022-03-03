@@ -19,9 +19,10 @@ export default function Home() {
               <div className="text-lg font-bold"><a href="/" className="hover:text-selected-text">Trae Coker</a></div>
               <div className="hidden md:flex space-x-12 items-center">
                   <a href="#" className="text-selected-text">Home</a>
-                  <a href="#about">About me</a>
-                  <a href="#skills">Skills</a>
-                  <a href="#work">My work</a>
+                  <a href="#about" className="hover:text-selected-text">About me</a>
+                  <a href="#skills" className="hover:text-selected-text">Skills</a>
+                  <a href="#work" className="hover:text-selected-text">My work</a>
+                  <a href="https://github.com/TraeCoker" className="hover:text-selected-text" >GitHub</a>
                   <a href="https://docs.google.com/document/d/1x6BSoMy3sXurjqhYVUJXpUtI0fd-7PpSQLIOzexseJM/edit?usp=sharing"><button className="px-6 py-2 bg-theme font-bold">Resume</button></a>
               </div>
               <div className="md:hidden">
