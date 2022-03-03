@@ -132,7 +132,7 @@ export default function Home() {
 
       <div className="container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
         <section className="w-full">
-          <h2 id="work" className="secondary-title">What I've been working on</h2>
+          <h2 id="work" className="secondary-title">{"What I've been working on"}</h2>
           <p className="section-paragraph">I keep busy and am always working on some sort of project. Have a look at some of the applications, technical writing, and organizations I have been a part of. </p>
           <ProjectCards />
         </section>

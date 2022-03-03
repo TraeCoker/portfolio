@@ -132,7 +132,7 @@ export default function Project({ project }) {
             <div className="container mt-24 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="project-about" className="secondary-title">Problems and Thought Process</h2>
-				  <p className="section-paragraph">The most challenging part of this project was finding the optimal way to 'snapshot' my user's wallet data so that it could accurately be calculated against this fluctuating data being pulled in from the CoinGecko market API.</p>
+				  <p className="section-paragraph">{"The most challenging part of this project was finding the optimal way to 'snapshot' my user's wallet data so that it could accurately be calculated against this fluctuating data being pulled in from the CoinGecko market API."}</p>
                   
                 </section>
             </div>
