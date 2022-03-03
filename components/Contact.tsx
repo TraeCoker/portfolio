@@ -11,13 +11,13 @@ export const Contact = () => {
 						<a href="mailto:alchemical.bytes@gmail.com" className="text-secondary underline mt-3 block hover:text-selected-text">alchemical.bytes@gmail.com</a>
                         
 						<div className="flex mt-20 space-x-6">
-							<a href="#" className="text-secondary underline mt-3 block hover:text-selected-text">
+							<a href="https://linkedin.com/in/traecoker" className="text-secondary underline mt-3 block hover:text-selected-text">
 								LinkedIn
 							</a>
-							<a href="#" className="text-secondary underline mt-3 block hover:text-selected-text">
+							<a href="https://github.com/TraeCoker" className="text-secondary underline mt-3 block hover:text-selected-text">
 								GitHub
 							</a>
-							<a href="#" className="text-secondary underline mt-3 block hover:text-selected-text">
+							<a href="https://twitter.com/traecoker" className="text-secondary underline mt-3 block hover:text-selected-text">
 								Twitter
 							</a>
 						</div>
