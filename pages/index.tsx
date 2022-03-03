@@ -49,10 +49,10 @@ export default function Home() {
                       <a href="#skills" className={(scrollPosition > 1000 && scrollPosition < 1500 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Skills</span>
                       </a>
-                      <a href="#work" className={(scrollPosition > 1500 && scrollPosition < 3200 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                      <a href="#work" className={(scrollPosition > 1500 && scrollPosition < 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
                       </a>
-                      <a href="#hire" className={(scrollPosition > 3200 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
+                      <a href="#hire" className={(scrollPosition > 3000 ? "selected-circle " : "" ) + "nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"}>
                           <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
                       </a>
                   </div>
