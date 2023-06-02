@@ -115,29 +115,10 @@ export default function Home() {
       <div className="container mt-60 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
-          <p className="section-paragraph">
-            Hello, my name is Trae Coker. I am a software engineer specializing
-            in intelligent automation development.
-          </p>
-          <p className="section-paragraph">
-            As a UiPath Advanced certified RPA developer I have helped many
-            clients optimize their KPI's and realize maximum returns on their
-            automation potential.
-          </p>
-          <p className="section-paragraph">
-            Working in a DevOps oriented environment has earned me experience in
-            all aspects of the automation development lifecyle, from consulting
-            with clients to evaluate automation potential, to development and
-            testing, to code reviews, to deployment, to ongoing production
-            monitoring, to onboarding and training automation end users.{" "}
-          </p>
-          <p className="section-paragraph">
-            My background in full-stack software development has helped me in
-            solving my clients unique problems, and working for a company in
-            direct partnership with UiPath has me training and working at the
-            cutting edge, currently working at the intersection of automation,
-            artifical intelligence and machine learning.
-          </p>
+          <p className="section-paragraph">Hello, my name is Trae Coker. I am a software engineer specializing in intelligent automation development.</p>
+          <p className="section-paragraph">As a UiPath Advanced certified RPA developer I have helped many clients optimize their KPI's and realize maximum returns on their automation potential.</p>
+          <p className="section-paragraph">Working in a DevOps oriented environment has earned me experience in all aspects of the automation development lifecyle, from consulting with clients to evaluate automation potential, to development and testing, to code reviews, to deployment, to ongoing production monitoring, to onboarding and training automation end users.</p>
+          <p className="section-paragraph">My background in full-stack software development has helped me in solving my clients unique problems, and working for a company in direct partnership with UiPath has me training and working at the cutting edge, currently working at the intersection of automation, artifical intelligence and machine learning.</p>
         </section>
       </div>
 
