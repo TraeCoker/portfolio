@@ -129,7 +129,7 @@ export default function Home() {
             <p><span>○</span> {"UiPath Studio, Orchestrator, and Automation Suite"}</p>
             <p><span>○</span> {"Microsoft Azure, Linux, Kuberenetes"}</p>
             <p><span>○</span> {"Agile CI/CD Development"}</p>
-            <p><span>○</span> {"Javascript, Typescript, Python, Powershell, VB"}</p>
+            <p><span>○</span> {"Typescript, Python, Powershell, VB"}</p>
             <p><span>○</span> React and Node.js</p>
             <p><span>○</span> {"HTML5, CSS, and responsive UI design"}</p>
             <p><span>○</span>{"SQL & NOSQL"}</p>
