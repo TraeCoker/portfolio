@@ -20,8 +20,8 @@ export default function Home() {
     <div className="bg-body text-white font-poppins pb-12">
 
       <NextSeo
-        title="Trae Coker - Full Stack Web Developer"
-        description="Trae Coker, full stack software engineer, web developer, and web3 blockchain developer."
+        title="Trae Coker - Intelligent Automation Engineer"
+        description="Trae Coker, intelligent automation engineer, full-stack developer, rpa developer, devops enigineer in Austin Texas."
         additionalLinkTags={
           [
             {rel: "icon",
@@ -91,7 +91,7 @@ export default function Home() {
               </nav>
 
               <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36 -z-1 ">
-                  <h1 className=" font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left animate-fade-in-up-m ">Building<br/> the web of tomorrow.</h1>
+                  <h1 className=" font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left animate-fade-in-up-m ">Automating<br/> the web of tomorrow.</h1>
                   <div className="w-full flex justify-center md:justify-start">
                     <Link href="#work">
                       <a  className="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 animate-fade-in-up-s">
