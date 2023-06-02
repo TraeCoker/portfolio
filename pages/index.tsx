@@ -127,10 +127,10 @@ export default function Home() {
 				  <h2 id="skills" className="secondary-title">My skills</h2>
 				  //<p className="section-paragraph">Through my studies, I have gained a solid understanding of computer science and software development concepts, and have dedicated much of my free time to apply these concepts to real-world scenarios and applications. </p>
           <div className="grid grid-rows-2 grid-flow-col gap-4">
-            <p><span>○</span> UiPath</p>
-            <p><span>○</span> Microsoft Azure, Linux, Kuberenetes</p>
-            <p><span>○</span> Agile CI/CD Development</p>
-            <p><span>○</span> Javascript, Python, Powershell, VB</p>
+            <p><span>○</span> {"UiPath Studio, Orchestrator, and Automation Suite"}</p>
+            <p><span>○</span> {"Microsoft Azure, Linux, Kuberenetes"}</p>
+            <p><span>○</span> {"Agile CI/CD Development"}</p>
+            <p><span>○</span> {"Javascript, Typescript, Python, Powershell, VB"}</p>
             <p><span>○</span> React and Node.js</p>
             <p><span>○</span> {"HTML5, CSS, and responsive UI design"}</p>
             <p><span>○</span>{"SQL & NOSQL"}</p>
