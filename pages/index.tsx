@@ -117,8 +117,8 @@ export default function Home() {
 				  <h2 id="about" className="secondary-title">About me</h2>
           <p className="section-paragraph">Hello, my name is Trae Coker. I am a software engineer specializing in intelligent automation development.</p>
           <p className="section-paragraph">As a UiPath Advanced certified RPA developer I have helped many clients optimize their KPI&apos;s and realize maximum returns on their automation potential.</p>
-          <p className="section-paragraph">Working in a DevOps oriented CI/CD environment has earned me experience in all aspects of the automation development lifecyle, from consulting with clients to evaluate automation potential, to solution design, development and testing, to deployment and ongoing production monitoring, to onboarding and training automation end users.</p>
-          <p className="section-paragraph">My background in full-stack software development has helped me in solving my clients unique problems, and working for a company in direct partnership with UiPath has me training and working at the cutting edge, currently working at the intersection of automation, artifical intelligence and machine learning.</p>
+          <p className="section-paragraph">Working on an Agile, DevOps oriented product team has earned me experience in all aspects of the automation development lifecyle, from consulting with clients to evaluate automation potential, to solution design, development and testing, to deployment and ongoing production monitoring, to onboarding and training automation end users.</p>
+          <p className="section-paragraph">My background in full-stack software development has helped me in solving my clients unique problems, and working for a company in direct partnership with UiPath has me training and working at the cutting edge, currently working at the intersection of automation, artificial intelligence and machine learning.</p>
         </section>
       </div>
 
