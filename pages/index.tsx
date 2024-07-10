@@ -21,7 +21,7 @@ export default function Home() {
 
       <NextSeo
         title="Trae Coker - Intelligent Automation Engineer"
-        description="Trae Coker, intelligent automation engineer, full-stack developer, rpa developer, devops enigineer in Austin Texas."
+        description="Trae Coker, intelligent automation engineer, full-stack developer, site reliability engineer, devops enigineer in Austin Texas."
         additionalLinkTags={
           [
             {rel: "icon",
@@ -47,7 +47,7 @@ export default function Home() {
                   <Link href="https://linkedin.com/in/traecoker">
                     <a  className="hover:text-selected-text">LinkedIn</a>
                   </Link>
-                  <Link href="https://docs.google.com/document/d/1x6BSoMy3sXurjqhYVUJXpUtI0fd-7PpSQLIOzexseJM/edit?usp=sharing">
+                  <Link href="https://docs.google.com/document/d/1ktCCze061Vh0bXkC61QJ_1cpGnLbK2EJGVyk-cs_OeQ/edit?usp=sharing">
                     <a><button className="px-6 py-2 bg-theme font-bold">Resume</button></a>
                   </Link>
               </div>
@@ -115,9 +115,9 @@ export default function Home() {
       <div className="container mt-60 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
-          <p className="section-paragraph">Hello, my name is Trae Coker. I am a software engineer specializing in intelligent automation development.</p>
-          <p className="section-paragraph">As a UiPath Advanced certified RPA developer I have helped many clients optimize their KPI&apos;s and realize maximum returns on their automation potential.</p>
-          <p className="section-paragraph">Working on an Agile, DevOps oriented product team has earned me experience in all aspects of the automation development lifecyle, from consulting with clients to evaluate automation potential, to solution design, development and testing, to deployment and ongoing production monitoring, to onboarding and training automation end users.</p>
+          <p className="section-paragraph">Hello, my name is Trae Coker. I am a full-stack software engineer specializing in intelligent automation development.</p>
+          <p className="section-paragraph">As a UiPath Advanced certified developer I have helped many clients optimize their KPI&apos;s and realize maximum returns on their automation potential.</p>
+          <p className="section-paragraph">Working on an Agile, DevOps oriented product team in an event driven environment has earned me experience in all aspects of the automation development lifecycle, from consulting with clients to evaluate automation potential, to solution design, development and testing, to deployment and ongoing production monitoring.</p>
           <p className="section-paragraph">My background in full-stack software development has helped me in solving my clients unique problems, and working for a company in direct partnership with UiPath has me training and working at the cutting edge, currently working at the intersection of automation, artificial intelligence and machine learning.</p>
         </section>
       </div>
@@ -126,11 +126,11 @@ export default function Home() {
 			    <section className="w-full">
 				  <h2 id="skills" className="secondary-title">My skills</h2>
           <div className="grid grid-rows-2 grid-flow-col gap-4">
-            <p><span>○</span> {"UiPath Studio, Orchestrator, and Automation Suite"}</p>
+            <p><span>○</span> {"React, Node.js, Ruby on Rails"}</p>
             <p><span>○</span> {"Microsoft Azure, Linux, Kuberenetes"}</p>
             <p><span>○</span> {"Agile CI/CD Development"}</p>
-            <p><span>○</span> {"Typescript, Python, Powershell, VB"}</p>
-            <p><span>○</span> React and Node.js</p>
+            <p><span>○</span> {"Typescript"}</p>
+            <p><span>○</span> UiPath Studio, Orchestrator, and Automation Suite</p>
             <p><span>○</span> {"HTML5, CSS, and responsive UI design"}</p>
             <p><span>○</span>{"SQL & NOSQL"}</p>
             <p><span>○</span> RESTful API development</p>
