@@ -21,7 +21,7 @@ export default function Home() {
 
       <NextSeo
         title="Trae Coker - Intelligent Automation Engineer"
-        description="Trae Coker, intelligent automation engineer, full-stack developer, site reliability engineer, devops enigineer in Austin Texas."
+        description="Trae Coker full-stack developer in Austin Texas."
         additionalLinkTags={
           [
             {rel: "icon",
@@ -117,7 +117,7 @@ export default function Home() {
 				  <h2 id="about" className="secondary-title">About me</h2>
           <p className="section-paragraph">Hello, my name is Trae Coker. I am a full-stack software engineer.</p>
           <p className="section-paragraph">I am actively working in AI and ML operations while exploring GIS technologies and GeoSpatial Data Science to contribute to on the ground regenerative projects.</p>
-          <p className="section-paragraph">My background working on an Agile, DevOps oriented product team in an event driven environment has earned me experience in all aspects of the automation development lifecycle, from consulting with clients to evaluate product requirements, to solution design, development and testing, to deployment and ongoing production monitoring.</p>
+          <p className="section-paragraph">My background working on an Agile, DevOps oriented product team in an event driven environment has earned me experience in all aspects of the automation development lifecycle, from consulting with clients, to solution design, development and testing, to deployment and ongoing production monitoring.</p>
         </section>
       </div>
 
