@@ -115,10 +115,9 @@ export default function Home() {
       <div className="container mt-60 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full animate-fade-in-up-s">
 			    <section className="w-full">
 				  <h2 id="about" className="secondary-title">About me</h2>
-          <p className="section-paragraph">Hello, my name is Trae Coker. I am a full-stack software engineer specializing in intelligent automation development.</p>
-          <p className="section-paragraph">As a UiPath Advanced certified developer I have helped many clients optimize their KPI&apos;s and realize maximum returns on their automation potential.</p>
-          <p className="section-paragraph">Working on an Agile, DevOps oriented product team in an event driven environment has earned me experience in all aspects of the automation development lifecycle, from consulting with clients to evaluate automation potential, to solution design, development and testing, to deployment and ongoing production monitoring.</p>
-          <p className="section-paragraph">My background in full-stack software development has helped me in solving my clients unique problems, and working for a company in direct partnership with UiPath has me training and working at the cutting edge, currently working at the intersection of automation, artificial intelligence and machine learning.</p>
+          <p className="section-paragraph">Hello, my name is Trae Coker. I am a full-stack software engineer.</p>
+          <p className="section-paragraph">I am actively working in AI and ML operations while exploring GIS technologies and GeoSpatial Data Science to contribute to on the ground regenerative projects.</p>
+          <p className="section-paragraph">My background working on an Agile, DevOps oriented product team in an event driven environment has earned me experience in all aspects of the automation development lifecycle, from consulting with clients to evaluate product requirements, to solution design, development and testing, to deployment and ongoing production monitoring.</p>
         </section>
       </div>
 
@@ -130,7 +129,7 @@ export default function Home() {
             <p><span>○</span> {"Microsoft Azure, Linux, Kuberenetes"}</p>
             <p><span>○</span> {"Agile CI/CD Development"}</p>
             <p><span>○</span> {"Typescript"}</p>
-            <p><span>○</span> UiPath Studio, Orchestrator, and Automation Suite</p>
+            <p><span>○</span> {"Python", "Geopandas", "ArcGIS"} </p>
             <p><span>○</span> {"HTML5, CSS, and responsive UI design"}</p>
             <p><span>○</span>{"SQL & NOSQL"}</p>
             <p><span>○</span> RESTful API development</p>
