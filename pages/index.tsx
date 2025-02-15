@@ -129,7 +129,7 @@ export default function Home() {
             <p><span>○</span> {"Microsoft Azure, Linux, Kuberenetes"}</p>
             <p><span>○</span> {"Agile CI/CD Development"}</p>
             <p><span>○</span> {"Typescript"}</p>
-            <p><span>○</span> {"Python", "Geopandas", "ArcGIS"} </p>
+            <p><span>○</span> {"Python, Geopandas, ArcGIS"} </p>
             <p><span>○</span> {"HTML5, CSS, and responsive UI design"}</p>
             <p><span>○</span>{"SQL & NOSQL"}</p>
             <p><span>○</span> RESTful API development</p>
